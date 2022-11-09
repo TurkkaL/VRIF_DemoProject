@@ -134,9 +134,14 @@ namespace BNG {
         Transform cameraRig;
         ScreenFader fader;
 
-        bool aimingTeleport = false;
-        bool validTeleport = false;
-        bool teleportationEnabled = true;
+        protected bool aimingTeleport = false;
+        public bool AimingTeleport {
+            get {
+                return aimingTeleport;
+            }
+        }
+        protected bool validTeleport = false;
+        protected bool teleportationEnabled = true;
 
         // How many frames teleport has been invalid for. 
         private int _invalidFrames = 0;

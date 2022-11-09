@@ -3051,8 +3051,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8ef3fb08709aab4cb6e18ac7630ea73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DebugTextColor: {r: 0, g: 1, b: 0.93333334, a: 1}
+  LogTextColor: {r: 0, g: 1, b: 1, a: 1}
+  WarnTextColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  ErrTextColor: {r: 1, g: 0, b: 0, a: 1}
   DebugTextHolder: {fileID: 1560750983781429978}
+  LastDebugMsg: 
 --- !u!114 &966512732591709781
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3074,6 +3077,8 @@ MonoBehaviour:
     type: 3}
   PlayerDownAction: {fileID: -5448902572583850724, guid: 27bafa1c7d8a77b47985ab70c0511986,
     type: 3}
+  MinPlayerHeight: 0.2
+  MaxPlayerHeight: 5
   LockCameraAction: {fileID: 7248157346319567513, guid: 27bafa1c7d8a77b47985ab70c0511986,
     type: 3}
   CameraLookAction: {fileID: 3400255892409606642, guid: 27bafa1c7d8a77b47985ab70c0511986,
@@ -3976,8 +3981,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0eb9682286b0d3e40b5e5404cd745300, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HandControl: {fileID: 1247141268346933693}
-  HandGrabber: {fileID: 184099144179019059}
+  HandControl: {fileID: 1247141268516953564}
+  HandGrabber: {fileID: 1447509484480671943}
   EnableHandCollision: 1
   EnableCollisionOnPoint: 1
   EnableCollisionOnFist: 1
@@ -4579,7 +4584,6 @@ MonoBehaviour:
     m_Bits: 1281
   DistanceFromGround: 0
   DistanceFromGroundOffset: 0
-  CapsuleCenter: -0.25
   MinimumCapsuleHeight: 0.4
   MaximumCapsuleHeight: 3
   LastTeleportTime: 0
@@ -4709,12 +4713,13 @@ MonoBehaviour:
   InitiateTeleportAction: {fileID: 1263111715868034790, guid: e39f4b35a6db18348b41eb0262520e69,
     type: 3}
   AllowTeleportRotation: 1
+  ForceStraightArrow: 0
   MaxSlope: 70
   TeleportYOffset: 0
   FadeScreenOnTeleport: 1
   TeleportFadeSpeed: 10
   TeleportDelay: 0.2
-  ForceStraightArrow: 0
+  FrictionMaterial: {fileID: 0}
 --- !u!114 &5883667856760302794
 MonoBehaviour:
   m_ObjectHideFlags: 0

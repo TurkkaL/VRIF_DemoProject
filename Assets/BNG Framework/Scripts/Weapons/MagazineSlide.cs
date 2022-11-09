@@ -12,6 +12,7 @@ namespace BNG {
         /// <summary>
         /// Clip transform name must contain this to be considered valid
         /// </summary>
+        [Tooltip("Clip transform name must contain this to be considered valid")]
         public string AcceptableMagazineName = "Clip";
 
         /// <summary>
