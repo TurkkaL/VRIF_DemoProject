@@ -90,3 +90,10 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 161066
+  packageName: VR Interaction Framework
+  packageVersion: 2.0.0
+  assetPath: Assets/BNG Framework/Scenes/XR Demo/Lightmap-8_comp_dir.png
+  uploadId: 581301

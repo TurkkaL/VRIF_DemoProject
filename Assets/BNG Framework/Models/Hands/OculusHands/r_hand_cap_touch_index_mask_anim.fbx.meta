@@ -200,3 +200,10 @@ ModelImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 161066
+  packageName: VR Interaction Framework
+  packageVersion: 2.0.0
+  assetPath: Assets/BNG Framework/Models/Hands/OculusHands/r_hand_cap_touch_index_mask_anim.fbx
+  uploadId: 581301

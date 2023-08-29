@@ -89,3 +89,10 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 161066
+  packageName: VR Interaction Framework
+  packageVersion: 2.0.0
+  assetPath: Assets/BNG Framework/Textures/tex_tex_jihi_wire_166229229_BaseColor.png
+  uploadId: 581301

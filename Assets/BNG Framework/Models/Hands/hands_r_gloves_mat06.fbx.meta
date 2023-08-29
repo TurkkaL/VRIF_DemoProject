@@ -184,3 +184,10 @@ ModelImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 161066
+  packageName: VR Interaction Framework
+  packageVersion: 2.0.0
+  assetPath: Assets/BNG Framework/Models/Hands/hands_r_gloves_mat06.fbx
+  uploadId: 581301

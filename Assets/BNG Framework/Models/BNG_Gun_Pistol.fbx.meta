@@ -143,3 +143,10 @@ ModelImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 161066
+  packageName: VR Interaction Framework
+  packageVersion: 2.0.0
+  assetPath: Assets/BNG Framework/Models/BNG_Gun_Pistol.fbx
+  uploadId: 581301
