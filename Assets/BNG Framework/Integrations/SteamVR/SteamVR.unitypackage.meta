@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 46180240c1952dd44b07fc12c974656c
+guid: 90e08931c703fdb48a72b621676bb989
 DefaultImporter:
   externalObjects: {}
   userData: 
@@ -9,6 +9,6 @@ AssetOrigin:
   serializedVersion: 1
   productId: 161066
   packageName: VR Interaction Framework
-  packageVersion: 2.0.0
-  assetPath: Assets/BNG Framework/HandPoser/Scenes/Quest Hand Tracking.unity
-  uploadId: 581301
+  packageVersion: 2.0.12
+  assetPath: Assets/BNG Framework/Integrations/SteamVR/SteamVR.unitypackage
+  uploadId: 628155

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 1c28cf5aa79b49e4f9785011c9a9402e
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 161066
+  packageName: VR Interaction Framework
+  packageVersion: 2.0.12
+  assetPath: Assets/BNG Framework/Integrations/Pico/Pico.unitypackage
+  uploadId: 628155

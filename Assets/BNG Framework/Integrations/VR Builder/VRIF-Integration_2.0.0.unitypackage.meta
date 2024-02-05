@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a4c9e7c7c5fc2804ca9ab5d898b41cfd
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 161066
+  packageName: VR Interaction Framework
+  packageVersion: 2.0.12
+  assetPath: Assets/BNG Framework/Integrations/VR Builder/VRIF-Integration_2.0.0.unitypackage
+  uploadId: 628155
