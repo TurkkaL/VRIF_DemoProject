@@ -127,7 +127,7 @@ namespace BNG {
 
         [Header("Physics Material")]
         [Tooltip("Physics Material to apply to the sphere collider when no controls are being issued.")]
-        public PhysicMaterial FrictionMaterial;
+        public PhysicsMaterial FrictionMaterial;
 
         CharacterController controller;
         BNGPlayerController playerController;
@@ -547,10 +547,9 @@ namespace BNG {
         }
 
         public virtual void AfterTeleport() {
-            
-            if (FadeScreenOnTeleport && fader) {
-                fader.DoFadeOut();
-            }
+
+
+            AfterTeleportFade();
 
             // Call any After Teleport Events
             OnAfterTeleport?.Invoke();
@@ -558,6 +557,12 @@ namespace BNG {
             // Call Event on Teleport Destination if available
             if(DestinationObject) {
                 DestinationObject.OnPlayerTeleported?.Invoke();
+            }
+        }
+
+        public virtual void AfterTeleportFade() {
+            if (FadeScreenOnTeleport && fader) {
+                fader.DoFadeOut();
             }
         }
 
@@ -610,7 +615,7 @@ namespace BNG {
 
             // Reset the player's velocity
             if (playerRigid) {
-                playerRigid.velocity = Vector3.zero;
+                playerRigid.linearVelocity = Vector3.zero;
             }
 
             // Update last teleport time
