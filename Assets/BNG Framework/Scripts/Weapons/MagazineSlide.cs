@@ -98,7 +98,7 @@ namespace BNG {
 
                 // HeldMagazine.transform.parent = transform;
                 if (magazineRigid) {
-                    magazineRigid.linearVelocity = Vector3.zero;
+                    magazineRigid.velocity = Vector3.zero;
                 }
 
                 // Lock in place immediately
@@ -288,7 +288,7 @@ namespace BNG {
 
                 // Eject with physics force
                 ejectedMag.transform.parent = null;
-                ejectRigid.linearVelocity = Vector3.zero;
+                ejectRigid.velocity = Vector3.zero;
 
                 if (requestedEjectForce != 0) {
                     if(EjectDirection == EjectDirectionOption.Down) {
